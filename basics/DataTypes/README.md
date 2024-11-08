@@ -62,5 +62,13 @@ A resource is a special variable that holds a reference to an external resource,
 $file = fopen("test.txt", "r"); // Resource
 ```
 
+## 🔄 Type Juggling and Type Conversion in PHP
+1. 🔄 Type Juggling
+is PHP's automatic way of converting data types on-the-fly based on the context. PHP is a loosely typed language, so it tries to adapt variable types automatically without explicit conversions from the developer. This feature is known as type juggling.
+2. Limitations of Type Juggling
+   While type juggling makes PHP flexible, it can lead to unexpected results. For instance, comparing strings and numbers directly can produce unexpected outputs.
+## 🎛️ Type Conversion
+   Type conversion (also known as type casting) is when you manually specify the type of a variable. Unlike type juggling, which is implicit, type conversion is explicit and allows you to ensure a variable is treated as a specific data typ
+
 
 
